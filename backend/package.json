@@ -1,0 +1,19 @@
+{
+  "name": "chatbot-backend",
+  "version": "1.0.0",
+  "description": "Backend for AI Customer Support Chatbot",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.90.0",
+    "@upstash/vector": "^1.2.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "groq-sdk": "^0.4.0"
+  }
+}

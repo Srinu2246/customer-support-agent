@@ -1,0 +1,50 @@
+# v0 sandbox internal files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.snowflake/
+.v0-trash/
+.vercel/
+next.user-config.*
+
+# Dependencies
+node_modules/
+*.pnp
+*.pnp.js
+
+# Production
+/build
+/dist
+
+# Environment variables
+.env
+.env.local
+.env*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Backend specific
+backend/node_modules/
+backend/.env
+
+# Frontend specific
+.cache/
+*.cache
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Next.js (if needed later)
+.next/
